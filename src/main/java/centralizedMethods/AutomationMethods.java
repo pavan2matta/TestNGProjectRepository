@@ -29,7 +29,7 @@ public class AutomationMethods extends Listeners{
 	
 	
 	public void initialise() throws IOException {		 
-		fis=new FileReader("C:\\Eclipse-workspace\\TestngProject\\src\\test\\resources\\PropertiesFiles\\OrangehrmPropertiesFile.properties");
+		fis=new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\PropertiesFiles\\OrangehrmPropertiesFile.properties");
 		if (fis != null) {
 			prop.load(fis);
 		} else {
@@ -117,8 +117,8 @@ public class AutomationMethods extends Listeners{
 		}
 	}
 	
-	public String userNamexpath="//*[@name='txtUsername']";
-	public String passwordxpath="//*[@name='txtPassword']";
+	public String userNamexpath="//*[@name='username']";
+	public String passwordxpath="//*[@name='password']";
 	public String loginbutton="//*[@type='submit']";
 	
 	public void loginhrm(String url,String userName,String password) throws InterruptedException {
