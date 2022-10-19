@@ -17,6 +17,7 @@ public class AddVacanciesChild extends AutomationMethods{
 	  public void beforeClass() throws IOException {
 		initialise();
 		openChrome();
+		
 		}
 
 	  @AfterClass(groups={"BVT","Sanity","Regression"})
