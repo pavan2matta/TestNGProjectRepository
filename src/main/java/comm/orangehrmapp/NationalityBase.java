@@ -25,7 +25,7 @@ public class NationalityBase extends AutomationMethods {
 		verifyIsDisplayed(dashboardmenu, "DashbrdMainMenu");
 		click(adminmenu, "adminmenu");
 		click(nationalitysubmenu,"nationalitysubmenu");
-		scrollIntoView(india);
+		//scrollIntoView(india);
 		verifyIsDisplayed(india, "india");
 		
 		

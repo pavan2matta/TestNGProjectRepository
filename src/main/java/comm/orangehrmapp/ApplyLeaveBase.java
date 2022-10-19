@@ -47,7 +47,7 @@ public class ApplyLeaveBase extends AutomationMethods{
 	
 	    public void assignleave(String AssLeEmpname,String fromDate,String toDate) {
 		clearNEnterText(emplyname, AssLeEmpname, "emplyname");
-		selectByVisibleText(leaveType, "CAN - Bereavement", "Select Leave Type");
+		//selectByVisibleText(leaveType, "CAN - Bereavement", "Select Leave Type");
 		clearNEnterText(fromdate, fromDate, "fromdate");
 		clearNEnterText(todate, toDate, "todate");
 		clearNEnterText(Comment, "ufuyfuy", "comment");

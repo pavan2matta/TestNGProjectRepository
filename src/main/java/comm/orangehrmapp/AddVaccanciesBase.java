@@ -17,8 +17,8 @@ public class AddVaccanciesBase extends AutomationMethods{
 	
 	public void vacanciespage() {
 		verifyIsDisplayed(dashboardmenu, "dashboardmenu");
-		mouseOver(recruitment, "recruitment");
-		mouseOverNClick(vacancies, "vacancies");
+	//	mouseOver(recruitment, "recruitment");
+		//mouseOverNClick(vacancies, "vacancies");
 		
 		
 		
